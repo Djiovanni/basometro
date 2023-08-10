@@ -247,7 +247,7 @@ def instalar_basometro():
 
   # Coleta dados da API
   current_year = datetime.datetime.now().year
-  database = coletar_dados_api(start_year = 2003,
+  database = coletar_dados_api(start_year = 2015,
                                end_year   = current_year,
                                keep_all   = False)
 
